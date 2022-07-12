@@ -3,11 +3,12 @@ module sigs.k8s.io/cluster-api-provider-aws/hack/tools
 go 1.16
 
 require (
+	cloud.google.com/go/iam v0.3.0 // indirect
 	github.com/a8m/envsubst v1.2.0
 	github.com/ahmetb/gen-crd-api-reference-docs v0.3.0
 	github.com/docker/docker v20.10.9+incompatible // indirect
 	github.com/golang/mock v1.6.0
-	github.com/golangci/golangci-lint v1.42.1
+	github.com/golangci/golangci-lint v1.46.2
 	github.com/itchyny/gojq v0.12.5
 	github.com/onsi/ginkgo v1.16.4
 	github.com/spf13/pflag v1.0.5
