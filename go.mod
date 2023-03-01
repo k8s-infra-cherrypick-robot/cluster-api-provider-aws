@@ -24,7 +24,7 @@ require (
 	github.com/docker/docker v20.10.9+incompatible // indirect
 	github.com/drone/envsubst/v2 v2.0.0-20210730161058-179042472c46 // indirect
 	github.com/evanphx/json-patch/v5 v5.5.0 // indirect
-	github.com/go-logr/logr v0.4.0
+	github.com/go-logr/logr v1.2.3
 	github.com/gofrs/flock v0.8.1
 	github.com/golang/mock v1.6.0
 	github.com/google/go-querystring v1.1.0 // indirect
@@ -37,7 +37,7 @@ require (
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
 	github.com/onsi/ginkgo v1.16.5
-	github.com/onsi/gomega v1.16.0
+	github.com/onsi/gomega v1.27.2
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/common v0.31.1 // indirect
@@ -46,11 +46,8 @@ require (
 	github.com/sergi/go-diff v1.2.0
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
-	golang.org/x/net v0.0.0-20211005215030-d2e5035098b3
-	golang.org/x/sys v0.0.0-20211004093028-2c5d950f24ef // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/crypto v0.1.0
+	golang.org/x/net v0.7.0
 	google.golang.org/genproto v0.0.0-20211005153810-c76a74d43a8e // indirect
 	google.golang.org/grpc v1.41.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0
